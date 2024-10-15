@@ -1,23 +1,29 @@
-KRITERIA SUBMISSION
+# Submisi Dasar Pemrograman Web 🌐
 
-Terdapat elemen <header>, <footer>, <main>, <article>, dan <aside> di berkas HTML.
-Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website).
-Contohnya:
-Tidak terdapat duplikasi elemen <main>.
-Elemen <main> harus berada diantara <header> dan <footer>.
-Harus terdapat elemen <header> sebelum <main> dan <footer> sesudah <main>.
-Jika terdapat elemen <header> atau <footer> di dalam elemen <article> atau <aside>, maka hal tersebut diperbolehkan.
-Wajib menampilkan menampilkan foto di elemen <aside>. Anda boleh menampilkan foto diri Anda sekaligus menampilkan biodata lainnya atau Anda juga bisa menampilkan foto yang relevan dengan konten yang Anda tulis.
-Menyusun layout menggunakan flexbox, bukan float.
-Tema yang ditampilkan bebas, kecuali tema Bandung.
-Semakin detail dan lengkap website Anda maka nilai submission akan makin tinggi.
-Berikut adalah sketsa dari struktur website yang dapat dijadikan referensi untuk mengerjakan submission. tetapi tidak kami diwajibkan.
+Proyek ini adalah submisi untuk tugas dasar pemrograman web. Di dalamnya, saya menerapkan konsep-konsep fundamental HTML, CSS, dan JavaScript untuk membangun sebuah website sederhana.
 
-Tips:
-Ketika melakukan import suatu resource pada file HTML, pastikan untuk menggunakan relative path, bukanabsolute path. Hal ini karena berpotensi menyebabkan resource tersebut tidak dapat dibaca ketika direviu. Berikut adalah contohnya.
-Absolute path: "C:\Users\Documents\Projects\styles\style.css" atau "/home/user/Projects/styles/style.css"
-Relative path: "styles/style.css"
+![logo](https://github.com/alvinsidiq/submision--dasar-pemrograman-web/blob/main/img/2.png)
 
-Masih dalam topik yang sama mengenai asset/resource, pastikan dalam penulisan nama file atau folder sama persis dengan keadaan sebenarnya. Misalnya jika ada gambar dengan nama profile.jpg pada folder proyek, Anda harus import ia dengan nama profile.jpg, bukan Profile.jpg. Hal ini bertujuan agar beberapa file tersebut bisa dimuat dengan baik oleh browser pada beberapa Sistem Operasi, seperti Linux.
+## Kriteria Submisi ✅
 
-Agar memudahkan Anda dalam membuat submission, gunakanlah IDE (Integrated Development Environtment) yang mendukung produktivitas dalam menuliskan kode. Misalnya Atom, VSCode, atau lainnya.
+Proyek ini memenuhi kriteria submisi berikut:
+
+* **Struktur HTML Semantik:**  Menggunakan elemen HTML yang tepat sesuai dengan tujuan dan kontennya (misalnya, `<header>`, `<nav>`, `<main>`, `<article>`, `<aside>`, `<footer>`).
+* **Tanpa Duplikasi Elemen:**  Setiap elemen digunakan hanya sekali dan tidak ada duplikasi yang tidak perlu.
+* **Penempatan Elemen yang Benar:**  Elemen-elemen disusun secara hierarkis dan logis sesuai dengan standar HTML.
+* **CSS untuk Styling:**  Menggunakan CSS untuk mengatur tampilan website, termasuk warna, font, layout, dan responsivitas.
+* **(Tambahkan kriteria lain jika ada)**
+
+## Teknologi yang Digunakan 💻
+
+* HTML
+* CSS
+* JavaScript
+
+## Struktur Folder 📁
+
+* **`css`:** Berisi file CSS untuk styling website.
+* **`img`:** Berisi gambar-gambar yang digunakan di website.
+
+
+
